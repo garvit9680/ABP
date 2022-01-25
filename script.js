@@ -22,7 +22,7 @@ Btn.onclick = ()=>{
     darkBtn.classList.toggle("right");
     
     if(darkBtn.classList.contains("right")){
-         bG.style.backgroundImage = "url(/bg_black.jpg)"
+         bG.style.backgroundImage = "url(bg_black.jpg)"
          sec1.style.color = "white";
        //body.style.backgroundColor = "black";
         for(let i = 0; i < pageDot.length; i++){
@@ -32,7 +32,7 @@ Btn.onclick = ()=>{
         //console.log(bG.style.backgroundImage = "url(/favicon/background.jfif) !important")
     }else{
         sec1.style.color = "black";
-        bG.style.backgroundImage = "url(/images/bg3.jfif)"
+        bG.style.backgroundImage = "url(bg3.jfif)"
         //body.style.backgroundColor = "white"
         for(let i = 0; i < pageDot.length; i++){
             pageDot[i].classList.remove("dark")

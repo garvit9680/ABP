@@ -25,7 +25,7 @@ Btn.onclick = ()=>{
          bG.style.backgroundImage = "url(/images/bg_black.jpg)"
          sec1.style.color = "white";
        //body.style.backgroundColor = "black";
-        for(let i = 0; i <= pageDot.length; i++){
+        for(let i = 0; i < pageDot.length; i++){
             pageDot[i].classList.add("dark")
             //console.log(pageDot[i])
         }
@@ -34,7 +34,7 @@ Btn.onclick = ()=>{
         sec1.style.color = "black";
         bG.style.backgroundImage = "url(/images/bg3.jfif)"
         //body.style.backgroundColor = "white"
-        for(let i = 0; i <= pageDot.length; i++){
+        for(let i = 0; i < pageDot.length; i++){
             pageDot[i].classList.remove("dark")
         }
     }

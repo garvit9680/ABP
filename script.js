@@ -22,7 +22,7 @@ Btn.onclick = ()=>{
     darkBtn.classList.toggle("right");
     
     if(darkBtn.classList.contains("right")){
-         bG.style.backgroundImage = "url(/images/bg_black.jpg)"
+         bG.style.backgroundImage = "url(/bg_black.jpg)"
          sec1.style.color = "white";
        //body.style.backgroundColor = "black";
         for(let i = 0; i < pageDot.length; i++){
